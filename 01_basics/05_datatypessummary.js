@@ -31,3 +31,24 @@ const myfun = function(){
 }
 
 console.log(typeof heros);
+
+/************************ */
+//STACK MEMORY
+let myYTName = "shivangiyoutube.com"
+let anotherName = myYTName
+anotherName = "Vision"
+
+console.log(myYTName);
+console.log(anotherName);
+
+//HEAP MEMORY
+let userOne = {
+    email: "userOne@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shivangi@2mail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
